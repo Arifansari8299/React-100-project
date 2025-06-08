@@ -20,7 +20,7 @@ const Hero = () => {
             HIRE ME
           </button>
           <button className="border-2 border-purple-700 text-purple-700 py-4 px-10 text-xl rounded-xl hover:bg-purple-700 hover:text-white transition duration-300">
-            GET CV
+             GET CV
           </button>
         </div>
       </div>

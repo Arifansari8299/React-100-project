@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div>
       <div className='flex items-center justify-center min-h-screen bg-gray-100'>
-        <div className='bg-gradient-to-r from-purple-500 to-indigo-500 p-16 rounded-lg max-w-3xl w-full mx-auto'>
+        <div className='bg-gradient-to-r from-purple-400 to-indigo-500 p-16 rounded-lg max-w-3xl w-full mx-auto'>
           <div className='text-center mb-8'>
             <h2 className='text-3xl font-bold text-white'>GET UPDATE FROM ANYWHERE</h2>
             <p className='text-white opacity-75 mt-4'>Get In Touch</p>
