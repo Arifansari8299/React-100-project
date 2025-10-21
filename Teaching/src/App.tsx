@@ -2,6 +2,7 @@ import Navbar from "./Topics/Navbar.jsx";
 import Functional from "./components/Functional.jsx"
 import Greeting from "./components/Greeting.jsx"
 import Child from "./components/Prop/Child.jsx"
+import Child1 from "./components/Prop/Child1.jsx"
 
 function App() {
   function showAlert() {
@@ -24,7 +25,18 @@ function App() {
       <Functional/>
       <Greeting/>
       {/* props ( short for properties that is used to pass the data from parent to child) */}
-      <Child/>
+      <Child object = "bag"/>
+      <Child object="umbrella"/>
+      <Child object="fan"/>
+      <Child object="laptop"/>
+      {/* props with destructuring */}
+      <Child1 name="Mohd owais" address="Gonda" age = {24} profession = "Software Development Engineer"/>
+      <Child1 name="Mohd Arif" address="Gonda" age = {24} profession = "Software Development Engineer"/>
+      <Child1 name="Mohd Adil" address="Gonda" age = {24} profession = "Software Development Engineer"/>
+      <Child1 name="Mohd sarfraj" address="Gonda" age = {24} profession = "Software Development Engineer"/>
+      <Child1 name="Mohd Afzal" address="Gonda" age = {24} profession = "Software Development Engineer"/>
+      <Child1 name="Mohd zeeshan" address="Gonda" age = {24} profession = "Software Development Engineer"/>
+
     </>
   );
 }
